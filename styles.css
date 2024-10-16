@@ -1,0 +1,117 @@
+/* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif; /* خط عربي عصري */
+}
+
+body {
+    background-color: #f0f0f5; /* خلفية خفيفة */
+    color: #333;
+    direction: rtl; /* الكتابة من اليمين لليسار */
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* الأقسام */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* أيقونات */
+i {
+    margin-left: 10px;
+    color: #4a90e2;
+}
+
+/* تنسيق البطاقة */
+.card-info ul, .attendance-info ul, .student-info ul {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* تنسيق لوحة التحكم */
+.control-section {
+    margin-top: 20px;
+}
+
+.control-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-section label {
+    margin-bottom: 5px;
+}
+
+.control-section input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.control-section button {
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.control-section button:hover {
+    background-color: #357ab8;
+}
